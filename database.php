@@ -1,8 +1,8 @@
 <?php
-$DBServer='localhost';
-$DBUser='bp6am';
-$DBPassword='bp6ampass';
-$DBName='starform';
+$DBServer='host url';
+$DBUser='Username';
+$DBPassword='password';
+$DBName='database name';
 
 $connect=new mysqli($DBServer,$DBUser,$DBPassword,$DBName);
 if($connect->connect_error)
